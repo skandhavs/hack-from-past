@@ -1,0 +1,22 @@
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 0 20px;
+}
+
+a:hover {
+  color: #e56653;
+}

@@ -1,0 +1,54 @@
+.hero {
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+  color: rgb(48, 0, 48);
+}
+button {
+  outline: 0;
+  grid-gap: 8px;
+  align-items: center;
+  background-color: #e56653;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-size: 16px;
+  gap: 8px;
+  justify-content: center;
+  line-height: 1.5;
+  overflow: hidden;
+  padding: 10px 16px;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  transition: all 0.14s ease-out;
+  white-space: nowrap;
+}
+
+button:hover {
+  box-shadow: 4px 4px 0 #000;
+  transform: translate(-4px, -4px);
+}
+button:focus-visible {
+  outline-offset: 1px;
+}
+
+.left {
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+.right > button {
+  margin-top: 20px;
+  width: 300px;
+  height: min-content;
+}
